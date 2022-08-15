@@ -15,6 +15,8 @@ public class WordsChecker {
     Set<String> set = new HashSet<>();
 
     Collections.addAll(set, text.split("\\P{IsAlphabetic}+"));
+//    for (String s : text.split("\\P{IsAlphabetic}+")) {
+//      set.add(s);
     System.out.println();
     System.out.println(set);
     System.out.println(
