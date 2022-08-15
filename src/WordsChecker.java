@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -13,9 +14,7 @@ public class WordsChecker {
 
     Set<String> set = new HashSet<>();
 
-    for (String s : text.split("\\P{IsAlphabetic}+")) {
-      set.add(s);
-    }
+    Collections.addAll(set, text.split("\\P{IsAlphabetic}+"));
     System.out.println();
     System.out.println(set);
     System.out.println(
