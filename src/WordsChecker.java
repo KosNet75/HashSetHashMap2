@@ -1,10 +1,22 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class WordsChecker {
-
-
-  String text;
+  static String text;
 
   public WordsChecker (String text){
-    this.text = text;
+    WordsChecker.text = text;
   }
+  public static void hasWord(String word) {
 
+    Set<String> set = new HashSet<>();
+
+    for (String s : text.split("\\P{IsAlphabetic}+"))
+      set.add(s);
+    System.out.println();
+       System.out.println(set);
+      System.out.println("\nПоиск в тексте слова: [" + word + "] результат поиска - [" + text.contains(word) + "]");
+
+    }
 }
+
