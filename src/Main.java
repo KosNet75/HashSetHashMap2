@@ -12,5 +12,4 @@ public class Main {
     WordsChecker.hasWord("voluptate");
 
   }
-
 }

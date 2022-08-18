@@ -3,7 +3,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class WordsChecker {
-
   static String text;
 
   public WordsChecker(String text) {
