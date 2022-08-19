@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 
 public class WordsChecker {
@@ -11,7 +13,9 @@ public class WordsChecker {
   }
 
   public static void hasWord(String word) {
-    List<String> set = new ArrayList<>();
+    // List<String> set = new ArrayList<>();
+
+    Set<String> set = new HashSet<>();
 
 
     Collections.addAll(set, text.split("\\P{IsAlphabetic}+"));
@@ -22,14 +26,14 @@ public class WordsChecker {
         "\nПоиск в тексте слова: [" + word + "] результат поиска - [" + text.contains(word) + "]");
 
 
-
-    int indexJava = set.indexOf(word);
-    System.out.println(" вариант без contains..????");
-    if(indexJava == - 1) {
-      System.out.println("Слово \"voluptate\" не найдено.");
-    } else {
-      System.out.println("Слово \"" + word + "\" найдено в тексте");
-     }
+//
+//    int indexJava = set.indexOf(word);
+//    System.out.println(" вариант без contains..????");
+//    if(indexJava == - 1) {
+//      System.out.println("Слово \"voluptate\" не найдено.");
+//    } else {
+//      System.out.println("Слово \"" + word + "\" найдено в тексте");
+//     }
 
   }
 }
