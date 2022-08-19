@@ -28,7 +28,7 @@ public class WordsChecker {
     if(indexJava == - 1) {
       System.out.println("Слово \"voluptate\" не найдено.");
     } else {
-      System.out.println("Слово \"voluptate\" найдено в тексте");
+      System.out.println("Слово \"" + word + "\" найдено в тексте");
      }
 
   }
