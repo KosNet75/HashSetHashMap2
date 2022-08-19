@@ -26,6 +26,13 @@ public class WordsChecker {
         "\nПоиск в тексте слова: [" + word + "] результат поиска - [" + text.contains(word) + "]");
 
 
+
+    if(!set.add(word)) {
+      System.out.println("найденно слово" + word);
+    }else System.out.println("не найдено слово"  + word);
+
+
+
 //
 //    int indexJava = set.indexOf(word);
 //    System.out.println(" вариант без contains..????");
