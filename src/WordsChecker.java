@@ -28,8 +28,8 @@ public class WordsChecker {
 
 
     if(!set.add(word)) {
-      System.out.println("найденно слово" + word);
-    }else System.out.println("не найдено слово"  + word);
+      System.out.println("В этом тексте найденно слово " + word);
+    }else System.out.println("В этом тексте не найдено слово "  + word);
 
 
 
