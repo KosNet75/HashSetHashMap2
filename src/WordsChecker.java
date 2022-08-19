@@ -21,6 +21,16 @@ public class WordsChecker {
     System.out.println(
         "\nПоиск в тексте слова: [" + word + "] результат поиска - [" + text.contains(word) + "]");
 
+
+
+    int indexJava = set.indexOf(word);
+    System.out.println(" вариант без contains..????");
+    if(indexJava == - 1) {
+      System.out.println("Слово \"voluptate\" не найдено.");
+    } else {
+      System.out.println("Слово \"voluptate\" найдено в тексте");
+     }
+
   }
 }
 
