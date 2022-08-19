@@ -22,11 +22,6 @@ public class WordsChecker {
     System.out.println(
         "\nПоиск в тексте слова: [" + word + "] результат поиска - [" + text.contains(word) + "]");
 
-
-
-
-
-
   }
 }
 
