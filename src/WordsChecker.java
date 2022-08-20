@@ -23,8 +23,6 @@ public class WordsChecker {
         "\ncontains:   Поиск в тексте слова: [" + word + "] результат поиска - [" + text.contains(word) + "]");
 
 
-///без contains..
-
     if(!set.add(word)) {
       System.out.println("без contains:   В этом тексте найдено слово " + word);
     }else System.out.println("без contains:   В этом тексте не найдено слово "  + word);
