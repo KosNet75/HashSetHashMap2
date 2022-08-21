@@ -13,9 +13,8 @@ public class Main {
             + "sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
 
 
-    System.out.print("Введите слово для поиска: > ");
-    String input = scanner.nextLine();
-    WordsChecker.hasWord(input);
+
+    WordsChecker.hasWord("reprehenderit");
 
   }
 }
