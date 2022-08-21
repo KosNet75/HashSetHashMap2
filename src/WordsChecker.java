@@ -17,9 +17,6 @@ public class WordsChecker {
   }
 
   public static boolean hasWord(String word) {
-//    System.out.println();
-//    System.out.println(set);
-
     return !set.add(word);
   }
 }
