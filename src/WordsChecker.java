@@ -17,10 +17,10 @@ public class WordsChecker {
   }
 
   public static boolean hasWord(String word) {
-    if(!set.add(word)) {
+    if (!set.add(word)) {
       System.out.println("В этом тексте найдено слово " + word);
       return true;
-    }else {
+    } else {
       System.out.println("В этом тексте не найдено слово " + word);
       return false;
     }
