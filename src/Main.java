@@ -17,6 +17,8 @@ public class Main {
     String input = scanner.nextLine();
     if(WordsChecker.hasWord(input)) {
       System.out.println("без contains:   В этом тексте найдено слово " + input);
-    }else System.out.println("без contains:   В этом тексте не найдено слово " + input);
+    }else {
+      System.out.println("без contains:   В этом тексте не найдено слово " + input);
+    }
   }
 }
