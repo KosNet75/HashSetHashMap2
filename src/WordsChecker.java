@@ -18,7 +18,6 @@ public class WordsChecker {
 
   public static boolean hasWord(String word) {
 
-
     System.out.println(set);
     System.out.println(
         "\ncontains:   Поиск в тексте слова: [" + word + "] результат поиска - [" + text.contains(
